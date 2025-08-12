@@ -1,7 +1,8 @@
 
-# Sign Language Detection App
+# Sign Language Detection using Webcam and Deep Learning
 
-This app detects sign language from your webcam and shows the result as text.
+A simple Python script to detect sign language gestures in real-time from your webcam and display the recognized sign as text.
+
 
 ## How to Use
 1. Make sure you have Python 3.7 or newer.
@@ -17,7 +18,7 @@ This app detects sign language from your webcam and shows the result as text.
 5. Show a sign to your webcam. The app will display the detected word on the screen.
 6. Press `q` to quit.
 
-## Signs You Can Use
+## Supported Signs
 - Absent
 - Bacteria
 - Beautiful
@@ -39,7 +40,7 @@ This app detects sign language from your webcam and shows the result as text.
 ## Train Your Own Model
 Use `training.ipynb` to create and train a new model if you want to add more signs.
 
-## Credits
+## Libraries Used
 - Mediapipe
 - TensorFlow
 - OpenCV
