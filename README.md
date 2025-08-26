@@ -10,10 +10,10 @@ A simple Python script to detect sign language gestures in real-time from your w
   ```bash
   pip install opencv-python mediapipe tensorflow numpy
   ```
-3. Put `model.h5` and `labels.txt` in the same folder as `simple_run.py`.
+3. Put `model.h5` and `labels.txt` in the same folder as `run.py`.
 4. Run:
   ```bash
-  python simple_run.py
+  python run.py
   ```
 5. Show a sign to your webcam. The app will display the detected word on the screen.
 6. Press `q` to quit.
